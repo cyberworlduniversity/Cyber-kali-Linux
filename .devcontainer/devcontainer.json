@@ -1,0 +1,12 @@
+{
+  "name": "CWU Cyber Kali GUI",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "CWU Kali GUI",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "remoteUser": "kali"
+}
