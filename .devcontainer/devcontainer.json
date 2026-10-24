@@ -8,5 +8,6 @@
       "onAutoForward": "openBrowser"
     }
   },
-  "remoteUser": "kali"
+  "remoteUser": "kali",
+  "postStartCommand": "bash -lc 'nohup /usr/local/bin/start-cwu-kali-gui >/tmp/cwu-gui.log 2>&1 &'"
 }
